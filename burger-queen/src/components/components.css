@@ -1,0 +1,42 @@
+.card-img-top{
+    width: 100px;
+    height: 100px;
+
+}
+
+.print-order{
+    position: relative;
+  
+    padding: 0.5em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    border: 2px solid rgb(185, 102, 102);
+}
+
+
+.row{
+   
+    border: 2px solid rgb(185, 102, 102);
+    justify-content: center;
+     position: relative;
+     padding: 0.5em;
+     margin-left: 0.5em;
+     margin-right: 0.5em;
+     margin-top: 0.5em;
+     margin-bottom: 0.5em;
+}
+h1{
+    justify-content: center;
+    position: relative;
+}
+
+img{
+    height: 30%;
+    width: 30%;
+}
+.kitchen{
+    padding: 0.5em;
+    margin: 0.5em;
+}

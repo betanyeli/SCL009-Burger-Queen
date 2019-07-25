@@ -1,0 +1,115 @@
+{
+    "Breakfast": [
+        {
+            "id": 1,
+            "product": "Café americano",
+            "price": 500,
+            "img": "https://image.flaticon.com/icons/svg/1046/1046785.svg"
+        },
+        {
+            "id": 2,
+            "product": "Café con leche",
+            "price": 700,
+            "img": "https://image.flaticon.com/icons/svg/1046/1046785.svg"
+        },
+        {
+            "id": 3,
+            "product": "Sandwich de jamón y queso",
+            "price": 1000,
+            "img": "https://image.flaticon.com/icons/svg/1046/1046753.svg"
+        },
+        {
+            "id": 4,
+            "product": "Jugo natural",
+            "price": 700,
+            "img":"https://image.flaticon.com/icons/svg/1046/1046781.svg"
+        }
+    ],
+
+    "Lunch": [
+        {
+            "id": 5,
+            "product": "Hamburguesa Pollo Simple",
+            "price": 1500,
+            "img":"https://image.flaticon.com/icons/svg/1046/1046784.svg"
+        },
+        {
+            "id": 6,
+            "product": "Hamburguesa Vacuno Simple",
+            "price": 1500,
+            "img":"https://image.flaticon.com/icons/svg/1046/1046784.svg"
+        },
+        {
+            "id": 7,
+            "product": "Hamburguesa Vegetariana Simple",
+            "price": 1500,
+            "img":"https://image.flaticon.com/icons/svg/1046/1046784.svg"
+        },
+        {
+            "id": 8,
+            "product": "Hamburguesa Pollo Doble",
+            "price": 2500,
+            "img":"https://image.flaticon.com/icons/svg/1046/1046787.svg"
+        },
+        {
+            "id": 9,
+            "product": "Hamburguesa Vacuno Doble",
+            "price": 2500,
+            "img":"https://image.flaticon.com/icons/svg/1046/1046787.svg"
+        },
+        {
+            "id": 10,
+            "product": "Hamburguesa Vegetariana Doble",
+            "price": 2500,
+            "img":"https://image.flaticon.com/icons/svg/1046/1046787.svg"
+        },
+        {
+            "id": 11,
+            "product": "Huevo",
+            "price": 500,
+            "img":"https://image.flaticon.com/icons/svg/1046/1046774.svg"
+        },
+        {
+            "id": 12,
+            "product": "Queso",
+            "price": 500, 
+            "img":"https://image.flaticon.com/icons/svg/1046/1046776.svg"
+        },
+        {
+            "id": 13,
+            "product": "Papas Fritas",
+            "price": 500,
+            "img":"https://image.flaticon.com/icons/svg/1046/1046786.svg"
+        },
+        {
+            "id": 14,
+            "product": "Onion Rings",
+            "price": 500,
+            "img":"https://image.flaticon.com/icons/svg/184/184569.svg"
+        },
+        {
+            "id": 15,
+            "product": "Agua 500ml",
+            "price": 500,
+            "img":"https://image.flaticon.com/icons/svg/1651/1651824.svg"
+        },
+        {
+            "id": 16,
+            "product": "Agua 750ml",
+            "price": 800,
+            "img":"https://image.flaticon.com/icons/svg/1651/1651824.svg"
+        },
+        {
+            "id": 17,
+            "product": "Bebida 500ml",
+            "price": 700,
+            "img":"https://image.flaticon.com/icons/svg/1046/1046782.svg"
+        },
+        {
+            "id": 18,
+            "product": "Bebida 750ml",
+            "price": 1000,
+            "img":"https://image.flaticon.com/icons/svg/1046/1046782.svg"
+        }
+    ]
+}
