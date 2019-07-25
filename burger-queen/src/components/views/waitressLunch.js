@@ -64,10 +64,11 @@ sendClick(){ //enviar data a firestore
 } // fin de sendClick
 
 deleteClick(id){
-  const orders= this.state.orders;
-  if(id === id){
-    orders.splice(id, 1);
- }
+//   const orders= this.state.orders;
+//   if(id === id){
+//     orders.splice(id, 1);
+//  }
+this.state.orders.splice(id, 1)
 this.setState({
   orders: this.state.orders,
   totalPrice: this.state.totalPrice - this.state.orders.price,

@@ -1,7 +1,7 @@
 import firebase from 'firebase';
 
 
-    const firebaseApp = firebase.initializeApp({
+    const firebaseConfig = firebase.initializeApp({
       apiKey: "AIzaSyBbuuEgdLjC7Ln12GNLJWrYQ1YBrX_trhg",
       authDomain: "burger-queen-labs.firebaseapp.com",
       databaseURL: "https://burger-queen-labs.firebaseio.com",
@@ -10,6 +10,6 @@ import firebase from 'firebase';
       messagingSenderId: "292724101558",
       appId: "1:292724101558:web:6b135c440a0e1172"
     });
-const db = firebaseApp.firestore();
+const db = firebaseConfig.firestore();
    
 export { db }

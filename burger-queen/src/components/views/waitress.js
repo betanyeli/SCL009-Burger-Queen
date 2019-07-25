@@ -1,6 +1,6 @@
 // Dependencies
 import React, {Component} from 'react';
-import logo from '../../hamburguesa.svg'
+
 import {db} from '../../data/firebaseInit';
 //Components
 
@@ -21,6 +21,7 @@ class Waitress extends Component {
       orders: [],
       totalPrice: 0,
       productOrder:" ",
+ 
       
   
     }
@@ -66,27 +67,39 @@ sendClick(){ //enviar data a firestore
 } // fin de sendClick
 
 deleteClick(id){
-  const orders= this.state.orders;
-  if(id === id){
-    orders.splice(id, 1);
- }
-this.setState({
+//  const orders= this.state.orders;
+
+//   if(id===id){
+//     orders.splice(id, 1);
+//  }
+// this.setState({
+//   orders: this.state.orders,
+//   totalPrice: this.state.totalPrice - this.state.orders.price,
+//   })
+ this.state.orders.forEach((el, i)=>{
+  if( this.state.orders[i] === id){
+    delete this.state.orders[i]
+    this.state.orders.splice(i, 1)
+  }
+ })
+ this.setState({
   orders: this.state.orders,
-  totalPrice: this.state.totalPrice - this.state.orders.price,
+  totalPrice: this.state.totalPrice 
   })
 }
   
   render() {
+
 const menuBreakfast = this.state.menuBf.map((element, index)=>{
       
       return (  
       
-        <div className="card col-sm-12 col-md-4 col-lg-2 mt-4">
+        <div key = {index} className="card col-sm-12 col-md-4 col-lg-2 mt-4">
   <img src={element.img} className="card-img-top" alt="burger"></img>
   <div className="card-body">
     <h5 className="card-title">{element.product}</h5>
     <p className="card-text">Precio : $ {element.price}</p>
-    <button onClick={()=>this.handleClick(element)} className="btn btn-danger" key={index}>Seleccionar
+    <button onClick={()=>this.handleClick(element)} className="btn btn-danger" >Seleccionar
         </button>
   </div>
 </div>
@@ -95,10 +108,9 @@ const menuBreakfast = this.state.menuBf.map((element, index)=>{
       )
 })
 
-const printMenu = this.state.orders.map(element=>{
-  console.log(element)
+const printMenu = this.state.orders.map((element, index)=>{
   return(
-<div>
+<div key={index}>
 <p>{element.product} <span className="close" role="img" aria-label="sheep" onClick={() => this.deleteClick(element)}>
       ❌
                         </span></p>
@@ -121,15 +133,6 @@ Total del pedido: {this.state.totalPrice}
                         <button onClick={()=>this.sendClick()} className="btn btn-danger">Enviar a cocina
         </button>
 </div>
-
- 
-        
-        
-
-
-     
-       
-        
 
       </div>
   );
