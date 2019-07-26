@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/SCL009-Burger-Queen/static/css/main.bd1fbf57.chunk.css",
-    "main.js": "/SCL009-Burger-Queen/static/js/main.ca85aebe.chunk.js",
-    "main.js.map": "/SCL009-Burger-Queen/static/js/main.ca85aebe.chunk.js.map",
+    "main.css": "/SCL009-Burger-Queen/static/css/main.9cfaa3b0.chunk.css",
+    "main.js": "/SCL009-Burger-Queen/static/js/main.dff3b214.chunk.js",
+    "main.js.map": "/SCL009-Burger-Queen/static/js/main.dff3b214.chunk.js.map",
     "runtime~main.js": "/SCL009-Burger-Queen/static/js/runtime~main.bfb50733.js",
     "runtime~main.js.map": "/SCL009-Burger-Queen/static/js/runtime~main.bfb50733.js.map",
-    "static/js/2.c4ed12d7.chunk.js": "/SCL009-Burger-Queen/static/js/2.c4ed12d7.chunk.js",
-    "static/js/2.c4ed12d7.chunk.js.map": "/SCL009-Burger-Queen/static/js/2.c4ed12d7.chunk.js.map",
+    "static/js/2.9d1d2a05.chunk.js": "/SCL009-Burger-Queen/static/js/2.9d1d2a05.chunk.js",
+    "static/js/2.9d1d2a05.chunk.js.map": "/SCL009-Burger-Queen/static/js/2.9d1d2a05.chunk.js.map",
     "index.html": "/SCL009-Burger-Queen/index.html",
-    "precache-manifest.c8cbfea87ce134bba981ad0b9eccae4b.js": "/SCL009-Burger-Queen/precache-manifest.c8cbfea87ce134bba981ad0b9eccae4b.js",
+    "precache-manifest.393ab1fd800d6f24e6d39fc38eacb6d2.js": "/SCL009-Burger-Queen/precache-manifest.393ab1fd800d6f24e6d39fc38eacb6d2.js",
     "service-worker.js": "/SCL009-Burger-Queen/service-worker.js",
-    "static/css/main.bd1fbf57.chunk.css.map": "/SCL009-Burger-Queen/static/css/main.bd1fbf57.chunk.css.map",
+    "static/css/main.9cfaa3b0.chunk.css.map": "/SCL009-Burger-Queen/static/css/main.9cfaa3b0.chunk.css.map",
     "static/media/plancton.png": "/SCL009-Burger-Queen/static/media/plancton.f8297d27.png"
   }
 }
