@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/SCL009-Burger-Queen/burger-queen/static/css/main.9cfaa3b0.chunk.css",
-    "main.js": "/SCL009-Burger-Queen/burger-queen/static/js/main.3223a0af.chunk.js",
-    "main.js.map": "/SCL009-Burger-Queen/burger-queen/static/js/main.3223a0af.chunk.js.map",
-    "runtime~main.js": "/SCL009-Burger-Queen/burger-queen/static/js/runtime~main.d9560d16.js",
-    "runtime~main.js.map": "/SCL009-Burger-Queen/burger-queen/static/js/runtime~main.d9560d16.js.map",
-    "static/js/2.dd266b9d.chunk.js": "/SCL009-Burger-Queen/burger-queen/static/js/2.dd266b9d.chunk.js",
-    "static/js/2.dd266b9d.chunk.js.map": "/SCL009-Burger-Queen/burger-queen/static/js/2.dd266b9d.chunk.js.map",
-    "index.html": "/SCL009-Burger-Queen/burger-queen/index.html",
-    "precache-manifest.f0c307d5c3c7c80a3f3c31ae0b2e2f76.js": "/SCL009-Burger-Queen/burger-queen/precache-manifest.f0c307d5c3c7c80a3f3c31ae0b2e2f76.js",
-    "service-worker.js": "/SCL009-Burger-Queen/burger-queen/service-worker.js",
-    "static/css/main.9cfaa3b0.chunk.css.map": "/SCL009-Burger-Queen/burger-queen/static/css/main.9cfaa3b0.chunk.css.map",
-    "static/media/plancton.png": "/SCL009-Burger-Queen/burger-queen/static/media/plancton.f8297d27.png"
+    "main.css": "/SCL009-Burger-Queen/static/css/main.9cfaa3b0.chunk.css",
+    "main.js": "/SCL009-Burger-Queen/static/js/main.b963fc22.chunk.js",
+    "main.js.map": "/SCL009-Burger-Queen/static/js/main.b963fc22.chunk.js.map",
+    "runtime~main.js": "/SCL009-Burger-Queen/static/js/runtime~main.bfb50733.js",
+    "runtime~main.js.map": "/SCL009-Burger-Queen/static/js/runtime~main.bfb50733.js.map",
+    "static/js/2.92a48d63.chunk.js": "/SCL009-Burger-Queen/static/js/2.92a48d63.chunk.js",
+    "static/js/2.92a48d63.chunk.js.map": "/SCL009-Burger-Queen/static/js/2.92a48d63.chunk.js.map",
+    "index.html": "/SCL009-Burger-Queen/index.html",
+    "precache-manifest.68225ac9bf6437f4d83feebd5d6b0db8.js": "/SCL009-Burger-Queen/precache-manifest.68225ac9bf6437f4d83feebd5d6b0db8.js",
+    "service-worker.js": "/SCL009-Burger-Queen/service-worker.js",
+    "static/css/main.9cfaa3b0.chunk.css.map": "/SCL009-Burger-Queen/static/css/main.9cfaa3b0.chunk.css.map",
+    "static/media/plancton.png": "/SCL009-Burger-Queen/static/media/plancton.f8297d27.png"
   }
 }
