@@ -8,6 +8,7 @@
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",
     "gh-pages": "^2.0.1",
+    "create-react-app": "^3.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.1",
@@ -61,5 +62,5 @@
   "bugs": {
     "url": "https://github.com/betanyeli/SCL009-Burger-Queen/issues"
   },
-  "homepage": "https://betanyeli.github.io/SCL009-Burger-Queen/burger-queen"
+  "homepage": "https://betanyeli.github.io/SCL009-Burger-Queen"
 }
